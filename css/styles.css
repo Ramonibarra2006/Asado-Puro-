@@ -1,0 +1,172 @@
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* NAVBAR */
+.bg-navbar-propio{
+    background-color: darkgray;
+}
+.imgnavbar{
+    width: 80px;
+    height: 60px;
+}
+
+/* INDEX-MENÚ */
+*{
+    margin: 0;
+    padding: 0;
+}
+.indexmain{
+    background-image: url(../images/imgfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    color: white;
+    padding: 80px 20px 40px;
+    text-align: center;
+}
+.indexmain h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.indexmain p{
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+/* LOCAL */
+.bodylocales{
+    background-color: black;
+}
+.carrusel-chico {
+  max-width: 1000px;     /* Cambiá este valor según el tamaño que querés */
+  margin: 0 auto;       /* Centra horizontalmente */
+}
+
+.carrusel-chico img {
+  max-height: 800px;    /* Limitá la altura de las imágenes */
+  object-fit: cover;    /* Para que no se deformen */
+  width: 100%;          /* Asegura que se ajusten al contenedor */
+}
+
+
+/* CARTA */
+.carta{
+    background-color: black;
+}
+.platosprincipales{
+    margin: 0 16px;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+.platosprincipales h2{
+    text-align: center;
+    margin: 0 16px 16px 16px;
+}
+.postres{
+    margin: 32px 16px;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+.postres h2{
+    text-align: center;
+    margin: 16px 16px 16px 16px;
+}
+.bebidas{
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+.bebidas h2{
+    text-align: center;
+    margin: 16px 16px 16px 16px;
+}
+.bebidas h3{
+     text-align: center;
+    margin: 16px 16px 16px 16px;
+}
+.plato{
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+/* ESPECIALIDAD */
+.pdc {
+  background-color: black;
+  padding: 40px 20px;
+  color: white;
+}
+
+.pdc h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.todos-platos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.platouno {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  width: 280px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.platouno:hover {
+  transform: scale(1.02);
+  border-color: white;
+}
+
+.platouno img {
+  width: 100%;
+  height: 180px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+.platouno h4 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.platouno p {
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.platouno h5 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer{
+    background-color: darkgrey;
+}
+footer img{
+    justify-content: right;
+    width: 80px;
+    height: 60px;
+}
