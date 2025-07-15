@@ -56,46 +56,10 @@ html{
 
 
 /* CARTA */
-.carta{
-    background-color: black;
-}
-.platosprincipales{
-    margin: 0 16px;
-    justify-content: center;
-    flex-direction: row;
-    color: white;
-}
-.platosprincipales h2{
-    text-align: center;
-    margin: 0 16px 16px 16px;
-}
-.postres{
-    margin: 32px 16px;
-    justify-content: center;
-    flex-direction: row;
-    color: white;
-}
-.postres h2{
-    text-align: center;
-    margin: 16px 16px 16px 16px;
-}
-.bebidas{
-    justify-content: center;
-    flex-direction: row;
-    color: white;
-}
-.bebidas h2{
-    text-align: center;
-    margin: 16px 16px 16px 16px;
-}
-.bebidas h3{
-     text-align: center;
-    margin: 16px 16px 16px 16px;
-}
-.plato{
-    margin: 10px 10px 10px 10px;
-    text-align: center;
-}
+
+
+
+
 /* ESPECIALIDAD */
 .pdc {
   background-color: black;
