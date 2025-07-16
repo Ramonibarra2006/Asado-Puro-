@@ -53,6 +53,36 @@ html{
   object-fit: cover;    /* Para que no se deformen */
   width: 100%;          /* Asegura que se ajusten al contenedor */
 }
+.horarios-locales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.horarios-locales > div {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 6px;
+  flex: 1 1 250px;  
+  text-align: center;
+}
+
+.horarios-locales h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.horarios-locales p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #444;
+}
+
 
 
 /* CARTA */
