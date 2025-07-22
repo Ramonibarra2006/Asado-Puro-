@@ -81,16 +81,15 @@ footer img {
 }
 
 .todos-platos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
   background-color: black;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .todos-platos .platouno {
-  flex: 1 1 30%;
-  max-width: 30%;
   background-color: darkgray;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -99,11 +98,6 @@ footer img {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.todos-platos .platouno:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 .todos-platos .platouno h4 {
   font-size: 16px;
@@ -112,8 +106,7 @@ footer img {
 }
 .todos-platos .platouno img {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
+  height: auto;
   border-radius: 8px;
   margin-bottom: 12px;
 }
