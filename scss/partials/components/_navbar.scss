@@ -1,0 +1,24 @@
+@use "../utilities/variables";
+
+nav{
+    background-color: darkgray;
+    .imgnavbar{  width: auto;
+                 height: 100px;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 16px;
+            li {
+                list-style-type:none;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    &:hover {
+                        color: variables.$hover-color;
+                    }
+                }
+            }
+        }
+    }
+}

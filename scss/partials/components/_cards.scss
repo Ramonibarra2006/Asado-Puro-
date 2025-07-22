@@ -1,0 +1,54 @@
+.todos-platos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+
+    .platouno {
+        flex: 1 1 30%; // 3 por fila
+        max-width: 30%;
+        background-color: darkgray;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
+
+        &:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+        }
+
+        h4 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+        img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin: 8px 0;
+            color: #ddd;
+            font-size: 14px;
+        }
+
+        h5 {
+            margin-top: auto;
+            font-size: 18px;
+            font-weight: bold;
+            color:white;
+        }
+    }
+}
