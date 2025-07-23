@@ -27,30 +27,81 @@ nav .imgnavbar ul li a:hover {
   color: darkorchid;
 }
 
-.index {
-  background-color: black;
-}
-
-h1 {
-  color: white;
-}
-
 .indexmain {
+  background-image: url("../../../images/parrilla.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  padding: 20px;
+  padding-top: 80px;
+  color: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.indexmain .titulo-principal {
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
 .indexmain p {
-  color: white;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 8px auto;
 }
-.indexmain p p {
-  color: white;
+
+.titulo-locales {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 2.5rem;
+}
+
+.horarios-locales {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+.horarios-locales .local-arocena,
+.horarios-locales .local-pocitos,
+.horarios-locales .local-pde {
+  max-width: 300px;
+  flex: 1 1 280px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+.horarios-locales .local-arocena h2,
+.horarios-locales .local-pocitos h2,
+.horarios-locales .local-pde h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+.horarios-locales .local-arocena p,
+.horarios-locales .local-pocitos p,
+.horarios-locales .local-pde p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 .pdc {
   background-color: black;
+  padding: 40px 20px;
 }
 .pdc h1 {
-  justify-content: center;
   text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
 }
 
 body {
