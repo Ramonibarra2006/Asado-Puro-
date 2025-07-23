@@ -24,7 +24,7 @@ nav .imgnavbar ul li a {
   color: black;
 }
 nav .imgnavbar ul li a:hover {
-  color: darkorchid;
+  color: blueviolet;
 }
 
 .indexmain {
@@ -190,6 +190,7 @@ body {
 }
 .formulario-contacto .reservas p a:hover {
   text-decoration: underline;
+  color: blueviolet;
 }
 .formulario-contacto .reservas .redes-sociales {
   font-size: 1rem;
@@ -202,6 +203,7 @@ body {
 }
 .formulario-contacto .reservas .redes-sociales a:hover {
   text-decoration: underline;
+  color: blueviolet;
 }
 .formulario-contacto .reservas .redes-sociales a:not(:last-child)::after {
   content: "|";
@@ -244,6 +246,7 @@ body {
   color: white;
   border: none;
   border-radius: 6px;
+  font-family: "PT Serif", serif;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
