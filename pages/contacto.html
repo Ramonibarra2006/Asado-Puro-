@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/styles.css">
+     <!-- ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -42,22 +44,42 @@
         </nav>
     </header>
    
-    <main>
-        <P>¿Quieres enterarte de todas nuestras notoicias?</P>
-        <form action="/submit"method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre">
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-        <p>Tu opinión nos importa</p>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre">
-            <label for="email">Email:</label>   
-            <input type="email" name="email" id="email">
-            <label for="">Mensaje:</label>
-            <input type="text" name="mensaje" id="mensaje">
+   <main class="formulario-contacto">
+  
+        <section class="reservas">
+            <h2 class="animate__animated animate__fadeInLeft">Reservas</h2>
+            <p>Teléfono: <a href="tel:099333444" onclick="return false;">099 333 444</a></p>
+            <div class="redes-sociales">
+            <a href="#" onclick="return false;">Instagram</a> 
+            <a href="#" onclick="return false;">Facebook</a>
+            <a href="#" onclick="return false;">X</a>
+            </div>
+        </section>
+
+        <p class="intro">¿Quieres enterarte de todas nuestras noticias?</p>
+
+        <form action="#" method="post" onsubmit="event.preventDefault();">
+            <label for="nombre-sus">Nombre:</label>
+            <input type="text" name="nombre-sus" id="nombre-sus">
+
+            <label for="email-sus">Email:</label>
+            <input type="email" name="email-sus" id="email-sus">
+
+            <p class="separador">Tu opinión nos importa</p>
+
+            <label for="nombre-op">Nombre:</label>
+            <input type="text" name="nombre-op" id="nombre-op">
+
+            <label for="email-op">Email:</label>   
+            <input type="email" name="email-op" id="email-op">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="5"></textarea>
+            
+            <button type="submit">Enviar</button>
         </form>
     </main>
+
 
     <footer>
         <p class="copy"> 2025 Asado Puro. Creado por Ramón Ibarra</p>

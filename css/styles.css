@@ -43,25 +43,26 @@ nav .imgnavbar ul li a:hover {
   align-items: center;
 }
 .indexmain .titulo-principal {
-  font-size: 3rem;
+  font-family: "PT Serif", serif;
+  font-size: 4rem;
   margin-bottom: 20px;
 }
 .indexmain p {
   font-size: 1.2rem;
   max-width: 700px;
   margin: 8px auto;
+  font-family: "PT Serif", serif;
 }
 
 .titulo-locales {
-  background-color: #000000;
   color: #fff;
   text-align: center;
   padding: 40px 20px;
   font-size: 2.5rem;
+  font-family: "PT Serif", serif;
 }
 
 .horarios-locales {
-  background-color: #000;
   color: #fff;
   padding: 60px 20px;
   display: flex;
@@ -84,6 +85,7 @@ nav .imgnavbar ul li a:hover {
 .horarios-locales .local-pde h2 {
   font-size: 1.8rem;
   margin-bottom: 12px;
+  font-family: "PT Serif", serif;
 }
 .horarios-locales .local-arocena p,
 .horarios-locales .local-pocitos p,
@@ -91,17 +93,163 @@ nav .imgnavbar ul li a:hover {
   font-size: 1rem;
   margin-bottom: 8px;
   line-height: 1.4;
+  font-family: "PT Serif", serif;
 }
 
 .pdc {
+  background-image: url("../../../images/fondocarta.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: black;
   padding: 40px 20px;
+  font-family: "PT Serif", serif;
 }
 .pdc h1 {
   text-align: center;
   color: white;
   font-size: 2.5rem;
   margin-bottom: 40px;
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background-image: url("../../../images/fondocarta.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  font-family: "PT Serif", serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.contenido-principal {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contenido-principal .titulo-principal {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: "PT Serif", serif;
+}
+.contenido-principal .seccion {
+  margin-bottom: 3rem;
+}
+.contenido-principal .seccion .titulo-seccion {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid red;
+  font-family: "PT Serif", serif;
+}
+.contenido-principal .seccion .lista-platos {
+  list-style: none;
+}
+.contenido-principal .seccion .lista-platos .plato {
+  font-size: 1.1rem;
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  font-family: "PT Serif", serif;
+}
+.contenido-principal .seccion .lista-platos .plato:last-child {
+  border-bottom: none;
+}
+
+.formulario-contacto {
+  background-color: black;
+  color: white;
+  padding: 3rem 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: "PT Serif", serif;
+}
+.formulario-contacto .reservas {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.formulario-contacto .reservas h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: red;
+}
+.formulario-contacto .reservas p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.formulario-contacto .reservas p a {
+  color: white;
+  text-decoration: none;
+}
+.formulario-contacto .reservas p a:hover {
+  text-decoration: underline;
+}
+.formulario-contacto .reservas .redes-sociales {
+  font-size: 1rem;
+  /* Separador personalizado */
+}
+.formulario-contacto .reservas .redes-sociales a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+.formulario-contacto .reservas .redes-sociales a:hover {
+  text-decoration: underline;
+}
+.formulario-contacto .reservas .redes-sociales a:not(:last-child)::after {
+  content: "|";
+  margin-left: 0.4rem;
+  color: white;
+}
+.formulario-contacto .intro,
+.formulario-contacto .separador {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.formulario-contacto form label {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+.formulario-contacto form input,
+.formulario-contacto form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #222;
+  color: white;
+  resize: none;
+}
+.formulario-contacto form textarea {
+  min-height: 100px;
+}
+.formulario-contacto form button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.formulario-contacto form button:hover {
+  background-color: darkred;
 }
 
 body {
